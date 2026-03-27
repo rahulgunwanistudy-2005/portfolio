@@ -49,7 +49,6 @@ const PROJECTS = [
     description: "A market intelligence platform scraping 60+ Amazon product listings per query, transforming HTML into structured Parquet datasets, and visualising price-to-value analytics via an interactive Plotly dashboard.",
     tech: ["FastAPI", "Playwright", "Docker", "Plotly"],
     icon: BarChart3,
-    link: "https://nexus-intelligence.streamlit.app",
     github: "https://github.com/rahulgunwanistudy-2005/nexus-intelligence",
   },
   {
