@@ -35,13 +35,22 @@ const EXPERIENCE = [
 
 const PROJECTS = [
   {
+    title: "VibeCheck",
+    subtitle: "AI Production-Readiness Analyzer",
+    description: "An AI-powered tool that analyzes any public GitHub repo for production readiness. Paste a URL, get a Vibe Score (0-100) across 5 checks — RLS Guard, Secret Scan, Auth Holes, 80/20 Wall, and Code Quality — in under 30 seconds.",
+    tech: ["FastAPI", "Groq", "React", "GitHub API"],
+    icon: BarChart3,
+    link: "https://vibe-check-lake.vercel.app",
+    github: "https://github.com/rahulgunwanistudy-2005/VibeCheck",
+  },
+  {
     title: "Nexus Intelligence",
     subtitle: "Market Intelligence Platform",
     description: "A market intelligence platform scraping 60+ Amazon product listings per query, transforming HTML into structured Parquet datasets, and visualising price-to-value analytics via an interactive Plotly dashboard.",
     tech: ["FastAPI", "Playwright", "Docker", "Plotly"],
     icon: BarChart3,
-    link: "#",
-    github: "https://github.com/rahulgunwanistudy-2005",
+    link: "https://nexus-intelligence.streamlit.app",
+    github: "https://github.com/rahulgunwanistudy-2005/nexus-intelligence",
   },
   {
     title: "AstroClassifier",
@@ -49,8 +58,8 @@ const PROJECTS = [
     description: "An industry-grade 10-class galaxy morphology classifier built on 17,736 Galaxy10 DECals images, achieving Macro F1: 0.607 and Macro AUC: 0.935 across highly imbalanced classes.",
     tech: ["PyTorch", "Gradio", "W&B", "HuggingFace"],
     icon: Star,
-    link: "#",
-    github: "https://github.com/rahulgunwanistudy-2005",
+    link: "https://huggingface.co/spaces/Rahu-l/astro-classifier",
+    github: "https://github.com/rahulgunwanistudy-2005/astro_classifier",
   },
   {
     title: "Customer Segmentation",
@@ -58,18 +67,8 @@ const PROJECTS = [
     description: "A dual-model system using RFM analysis and K-Means clustering to segment customers into actionable personas, with a Logistic Regression churn predictor for targeted retention campaigns.",
     tech: ["Python", "Scikit-Learn", "Streamlit"],
     icon: Users,
-    link: "#",
-    github: "https://github.com/rahulgunwanistudy-2005",
-  },
-  {
-    title: "PhysioSync",
-    subtitle: "AI Exercise Form Analyzer",
-    description: "An AI-powered exercise form analyzer built for a Kaggle hackathon. Uses computer vision to provide real-time feedback on exercise posture and form correctness.",
-    tech: ["Python", "MediaPipe", "OpenCV"],
-    icon: Dumbbell,
-    link: null,
-    github: "https://github.com/rahulgunwanistudy-2005",
-    wip: true,
+    link: "https://customer-churn-prediction--dashboard.streamlit.app",
+    github: "https://github.com/rahulgunwanistudy-2005/ecommerce-customer-segmentation",
   },
 ];
 
