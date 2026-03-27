@@ -44,14 +44,6 @@ const PROJECTS = [
     github: "https://github.com/rahulgunwanistudy-2005/VibeCheck",
   },
   {
-    title: "Nexus Intelligence",
-    subtitle: "Market Intelligence Platform",
-    description: "A market intelligence platform scraping 60+ Amazon product listings per query, transforming HTML into structured Parquet datasets, and visualising price-to-value analytics via an interactive Plotly dashboard.",
-    tech: ["FastAPI", "Playwright", "Docker", "Plotly"],
-    icon: BarChart3,
-    github: "https://github.com/rahulgunwanistudy-2005/nexus-intelligence",
-  },
-  {
     title: "AstroClassifier",
     subtitle: "Celestial Object Classification",
     description: "An industry-grade 10-class galaxy morphology classifier built on 17,736 Galaxy10 DECals images, achieving Macro F1: 0.607 and Macro AUC: 0.935 across highly imbalanced classes.",
@@ -68,6 +60,14 @@ const PROJECTS = [
     icon: Users,
     link: "https://customer-churn-prediction--dashboard.streamlit.app",
     github: "https://github.com/rahulgunwanistudy-2005/ecommerce-customer-segmentation",
+  },
+  {
+    title: "Nexus Intelligence",
+    subtitle: "Market Intelligence Platform",
+    description: "A market intelligence platform scraping 60+ Amazon product listings per query, transforming HTML into structured Parquet datasets, and visualising price-to-value analytics via an interactive Plotly dashboard.",
+    tech: ["FastAPI", "Playwright", "Docker", "Plotly"],
+    icon: BarChart3,
+    github: "https://github.com/rahulgunwanistudy-2005/nexus-intelligence",
   },
 ];
 
